@@ -8,7 +8,6 @@ Pod::Spec.new do |s|
   s.authors  = { 'Mattt Thompson' => 'm@mattt.me' }
   s.source   = { :git => 'https://github.com/20427740/TalkfunSDK.git', :tag => s.version, :submodules => true }
   s.requires_arc = true
-  s.vendored_libraries =  'SDK/IJKMediaFramework.framework'
   s.ios.deployment_target = "8.0"
   s.framework      = 'SystemConfiguration'
    
