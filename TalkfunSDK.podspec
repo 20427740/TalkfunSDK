@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = "TalkfunSDK"
-    s.version          = "0.0.3"
+    s.version          = "0.0.5"
     s.summary          = "IJKPlayer framework。"
     s.license          = 'LGPLv2.1'
     s.author           = { "littleplayer" => "20427740@qq.com" }
