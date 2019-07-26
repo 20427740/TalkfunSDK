@@ -4,8 +4,8 @@ Pod::Spec.new do |s|
     s.summary          = "IJKPlayer framework。"
     s.license          = 'LGPLv2.1'
     s.author           = { "littleplayer" => "20427740@qq.com" }
-    s.homepage         = "https://github.com/poholo/TalkfunSDK"
-    s.source           = { :git => "https://github.com/poholo/TalkfunSDK.git", :tag => s.version.to_s }
+    s.homepage         = "https://github.com/20427740/TalkfunSDK"
+    s.source           = { :git => "https://github.com/20427740/TalkfunSDK.git", :tag => s.version.to_s }
 
     s.platform     = :ios, '8.0'
     s.requires_arc = true
