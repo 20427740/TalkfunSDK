@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
     s.platform     = :ios, '8.0'
     s.requires_arc = true
     s.vendored_frameworks = 'SDK/IJKMediaFramework.framework'
-  
+    s.resource     = 'SDK/TalkfunSDK.bundle'
     s.frameworks  = "AudioToolbox", "AVFoundation", "CoreGraphics", "CoreMedia", "CoreVideo", "MobileCoreServices", "OpenGLES", "QuartzCore", "VideoToolbox", "Foundation", "UIKit", "MediaPlayer"
      s.libraries   = "bz2", "z", "c++"
 end
