@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name                = "TalkfunSDK"
-    s.version             = "1.5.1"
+    s.version             = "1.6.1"
     s.summary             = "IJKPlayer framework。"
     s.license             = 'LGPLv2.1'
     s.author              = { "littleplayer" => "20427740@qq.com" }
@@ -8,9 +8,7 @@ Pod::Spec.new do |s|
     s.source              = { :git => "https://github.com/20427740/TalkfunSDK.git", :tag => s.version.to_s }
     s.platform            =  :ios, '8.0'
     s.requires_arc = true
-   
-    
-    s.resource     = 'SDK/TalkfunSDK.bundle'
+    s.vendored_frameworks = 'SDK/TalkfunSDKFramework.framework'
     s.frameworks  = "AudioToolbox", "AVFoundation", "CoreGraphics", "CoreMedia", "CoreVideo", "MobileCoreServices", "OpenGLES", "QuartzCore", "VideoToolbox", "Foundation", "UIKit", "MediaPlayer"
      s.libraries   = "bz2", "z", "c++"
     
